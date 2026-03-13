@@ -1,0 +1,123 @@
+# =========================================
+# ENVIRONMENT VARIABLES
+# =========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================================
+# NODE / JAVASCRIPT
+# =========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+build/
+dist/
+.next/
+out/
+
+# Logs
+logs
+*.log
+
+# =========================================
+# UPLOADS / USER FILES
+# =========================================
+backend/uploads/
+uploads/
+
+# =========================================
+# MACHINE LEARNING MODELS
+# =========================================
+
+# Model folders
+ml-server/results/
+ml-server/checkpoints/
+ml-server/models/
+ml-server/case_classifier/artifacts/
+
+# HuggingFace / PyTorch checkpoints
+checkpoint-*/
+trainer_state.json
+training_args.bin
+optimizer.pt
+scheduler.pt
+rng_state.pth
+
+# Large model files
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.h5
+*.joblib
+*.pkl
+*.pickle
+*.onnx
+
+# =========================================
+# DATASETS
+# =========================================
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+
+# =========================================
+# PYTHON
+# =========================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+.env/
+.venv/
+ENV/
+
+# =========================================
+# OS FILES
+# =========================================
+.DS_Store
+Thumbs.db
+
+# =========================================
+# IDE / EDITOR
+# =========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# =========================================
+# TEMP FILES
+# =========================================
+tmp/
+temp/
+.cache/
+
+# =========================================
+# TEST / COVERAGE
+# =========================================
+coverage/
+.nyc_output/
+
+# =========================================
+# SECURITY
+# =========================================
+*.key
+*.pem
+*.crt

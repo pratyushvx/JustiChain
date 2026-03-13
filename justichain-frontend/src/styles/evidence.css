@@ -1,0 +1,234 @@
+/* EVIDENCE PANEL CSS */
+
+.evidence-panel {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+}
+
+.evidence-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 15px;
+}
+
+.evidence-header h3 {
+    margin: 0;
+    color: #1e293b;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* UPLOAD SECTION */
+.upload-zone {
+    background: #f8fafc;
+    border: 2px dashed #cbd5e1;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    transition: all 0.3s;
+    margin-bottom: 30px;
+}
+
+.upload-zone:hover {
+    border-color: #3b82f6;
+    background: #eff6ff;
+}
+
+.upload-inputs {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.upload-inputs select,
+.upload-inputs input[type="text"] {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+    font-size: 14px;
+}
+
+.btn-upload {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 0.2s;
+}
+
+.btn-upload:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+/* EVIDENCE LIST */
+.evidence-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.evidence-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+}
+
+.evidence-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.evidence-preview {
+    height: 140px;
+    background: #f1f5f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #64748b;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.evidence-info {
+    padding: 15px;
+}
+
+.evidence-info h4 {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+    color: #0f172a;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.meta-badges {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.badge {
+    font-size: 11px;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.badge.pdf {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+.badge.image {
+    background: #e0f2fe;
+    color: #0284c7;
+}
+
+.badge.statement {
+    background: #f3e8ff;
+    color: #7e22ce;
+}
+
+/* ML SCORE SECTION */
+.ml-score-box {
+    background: #0f172a;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.score-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+    font-size: 13px;
+    opacity: 0.9;
+}
+
+.main-score {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 8px;
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #4ade80;
+    /* Success green */
+}
+
+/* STATUS */
+.status-indicator {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.status-analyzing {
+    background: #f59e0b;
+    animation: pulse 1.5s infinite;
+}
+
+.status-verified {
+    background: #10b981;
+}
+
+.status-flagged {
+    background: #ef4444;
+}
+
+/* NEW STATUS STYLES */
+.status-wrong_document {
+    border: 2px solid #ef4444;
+    /* red border */
+    background: #fee2e2;
+    /* light red background */
+}
+
+.status-verified_correct {
+    border: 2px solid #10b981;
+    /* green border */
+    background: #d1fae5;
+    /* light green background */
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

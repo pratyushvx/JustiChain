@@ -1,0 +1,415 @@
+/* =========================
+   JUDGE DASHBOARD CSS
+========================= */
+:root {
+  --judge-purple: #4c1d95;
+  --judge-purple-dark: #3c1c6e;
+  --judge-gold: #d97706;
+  --judge-red: #b91c1c;
+  --judge-green: #059669;
+  --judge-blue: #1d4ed8;
+  --judge-light: #f8fafc;
+  --judge-dark: #0f172a;
+  --judge-card-bg: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+/* MAIN DASHBOARD */
+.judge-dashboard {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+  position: relative;
+}
+
+.judge-dashboard::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 10% 20%, rgba(124, 58, 237, 0.1) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(245, 158, 11, 0.1) 0%, transparent 40%);
+  z-index: -1;
+}
+
+/* NAVBAR */
+.judge-navbar {
+  background: linear-gradient(to right, var(--judge-purple), #5b21b6);
+  color: white;
+  padding: 18px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  border-bottom: 4px solid var(--judge-gold);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.judge-navbar h2 {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.judge-navbar h2::before {
+  content: '👨‍⚖️';
+  font-size: 24px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links span {
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #e2e8f0;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.nav-links span:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.nav-links .active {
+  background: linear-gradient(135deg, var(--judge-gold), #f59e0b);
+  color: #1e1b4b;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+}
+
+.logout-btn {
+  background: linear-gradient(135deg, var(--judge-red), #991b1b);
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  letter-spacing: 0.5px;
+}
+
+.logout-btn::before {
+  content: '⚖️';
+  font-size: 14px;
+}
+
+.logout-btn:hover {
+  background: linear-gradient(135deg, #991b1b, #7f1d1d);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(185, 28, 28, 0.3);
+}
+
+/* MAIN CONTAINER */
+.judge-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+  gap: 30px;
+}
+
+/* CASE CARDS */
+.judge-case-card {
+  background: linear-gradient(145deg, #ffffff, #f8fafc);
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.judge-case-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  border-color: var(--judge-purple);
+}
+
+.judge-case-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(to right, var(--judge-purple), var(--judge-gold));
+}
+
+/* CASE INFO */
+.judge-case-card b {
+  color: var(--judge-purple);
+  font-size: 15px;
+  margin-right: 8px;
+  font-weight: 600;
+}
+
+.judge-case-card br {
+  margin-bottom: 8px;
+}
+
+/* FORM ELEMENTS */
+.judge-case-card select,
+.judge-case-card input {
+  width: 100%;
+  padding: 12px 16px;
+  margin: 10px 0;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.3s;
+  background: #f8fafc;
+}
+
+.judge-case-card select:focus,
+.judge-case-card input:focus {
+  outline: none;
+  border-color: var(--judge-purple);
+  box-shadow: 0 0 0 3px rgba(76, 29, 149, 0.1);
+  background: white;
+}
+
+.judge-case-card input[type="datetime-local"] {
+  padding: 11px 16px;
+}
+
+/* BUTTONS */
+.judge-case-card button {
+  padding: 12px 24px;
+  margin: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  min-width: 180px;
+}
+
+.judge-btn-primary {
+  background: linear-gradient(135deg, var(--judge-purple), #5b21b6);
+  color: white;
+  box-shadow: 0 4px 12px rgba(76, 29, 149, 0.2);
+}
+
+.judge-btn-primary:hover {
+  background: linear-gradient(135deg, #5b21b6, var(--judge-purple-dark));
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(76, 29, 149, 0.3);
+}
+
+.judge-btn-success {
+  background: linear-gradient(135deg, var(--judge-green), #047857);
+  color: white;
+  box-shadow: 0 4px 12px rgba(5, 150, 105, 0.2);
+}
+
+.judge-btn-success:hover {
+  background: linear-gradient(135deg, #047857, #065f46);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(5, 150, 105, 0.3);
+}
+
+.judge-btn-danger {
+  background: linear-gradient(135deg, var(--judge-red), #991b1b);
+  color: white;
+  box-shadow: 0 4px 12px rgba(185, 28, 28, 0.2);
+}
+
+.judge-btn-danger:hover {
+  background: linear-gradient(135deg, #991b1b, #7f1d1d);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(185, 28, 28, 0.3);
+}
+
+/* MESSAGES */
+.judge-password {
+  background: #f0f9ff;
+  color: var(--judge-blue);
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #bae6fd;
+  margin: 15px 0;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.judge-warning {
+  background: #fef3c7;
+  color: #92400e;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #fbbf24;
+  margin: 15px 0;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.judge-error {
+  grid-column: 1 / -1;
+  background: #fee2e2;
+  color: var(--judge-red);
+  padding: 16px 24px;
+  border-radius: 10px;
+  border: 1px solid #fca5a5;
+  margin-bottom: 20px;
+  font-weight: 500;
+  text-align: center;
+  animation: shake 0.5s ease-in-out;
+}
+
+/* STATUS COLORS */
+.judge-case-card span[style*="color: red"] {
+  color: var(--judge-red) !important;
+  font-weight: 600;
+  background: #fee2e2;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.judge-case-card span[style*="color: green"] {
+  color: var(--judge-green) !important;
+  font-weight: 600;
+  background: #dcfce7;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+/* FINAL VERDICT MESSAGE */
+.judge-case-card p[style*="color: red"] {
+  background: linear-gradient(135deg, #fee2e2, #fecaca);
+  color: var(--judge-red) !important;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px 0;
+  border: 1px solid #fca5a5;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* ACTION SECTION SPACING */
+.judge-case-card > br + br {
+  margin-bottom: 20px;
+}
+
+/* ANIMATIONS */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+  20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1200px) {
+  .judge-container {
+    grid-template-columns: 1fr;
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 768px) {
+  .judge-navbar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+    padding: 15px;
+  }
+  
+  .nav-links {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .judge-container {
+    margin: 20px 15px;
+    padding: 0;
+  }
+  
+  .judge-case-card {
+    padding: 20px;
+  }
+  
+  .judge-case-card button {
+    min-width: 150px;
+    width: 100%;
+    margin: 8px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .judge-navbar h2 {
+    font-size: 22px;
+  }
+  
+  .nav-links span {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+  
+  .logout-btn {
+    padding: 8px 18px;
+    font-size: 14px;
+  }
+  
+  .judge-case-card {
+    padding: 16px;
+  }
+}
+
+/* PRINT STYLES */
+@media print {
+  .judge-navbar,
+  .logout-btn,
+  button,
+  input,
+  select {
+    display: none;
+  }
+  
+  .judge-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .judge-case-card {
+    break-inside: avoid;
+    box-shadow: none;
+    border: 1px solid #ccc;
+  }
+}

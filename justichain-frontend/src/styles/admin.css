@@ -1,0 +1,154 @@
+.admin-case-page {
+    background-color: #1e293b;
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.admin-header {
+    border-bottom: 1px solid #334155;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.admin-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 300px;
+    /* 3 columns */
+    gap: 20px;
+    height: calc(100vh - 150px);
+}
+
+.admin-live-feed,
+.admin-evidence,
+.admin-controls {
+    background: #0f172a;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-y: auto;
+    border: 1px solid #334155;
+}
+
+.section-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3b82f6;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+/* Statements */
+.statements-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.statement-item {
+    background: #1e293b;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.statement-item .time {
+    display: block;
+    font-size: 0.7rem;
+    color: #94a3b8;
+    margin-top: 5px;
+    text-align: right;
+}
+
+.statement-item.JUDGE {
+    border-left: 4px solid #facc15;
+}
+
+.statement-item.LAWYER {
+    border-left: 4px solid #3b82f6;
+}
+
+.statement-item.CITIZEN {
+    border-left: 4px solid #4ade80;
+}
+
+.statement-item.POLICE {
+    border-left: 4px solid #ef4444;
+}
+
+/* Evidence */
+.evidence-card-admin {
+    background: #1e293b;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.evidence-info strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.evidence-info a {
+    color: #3b82f6;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.score-badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: #1e293b;
+    font-weight: bold;
+    text-align: center;
+    min-width: 50px;
+}
+
+/* Controls */
+.control-group {
+    margin-bottom: 20px;
+}
+
+.control-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.control-group select,
+.control-group textarea {
+    width: 100%;
+    background: #1e293b;
+    border: 1px solid #475569;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.submit-review-btn {
+    width: 100%;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.submit-review-btn:hover {
+    background: #2563eb;
+}
+
+.last-review {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #334155;
+    font-size: 0.9rem;
+    color: #94a3b8;
+}

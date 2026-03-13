@@ -1,0 +1,291 @@
+/* =========================
+   POLICE DASHBOARD CSS
+========================= */
+:root {
+  --police-blue: #1e40af;
+  --police-dark: #1e3a8a;
+  --police-red: #dc2626;
+  --police-gold: #d97706;
+  --police-light: #f8fafc;
+}
+
+/* MAIN LAYOUT */
+.police-dashboard {
+  min-height: 100vh;
+  background: linear-gradient(rgba(15, 23, 42, 0.9), rgba(30, 41, 59, 0.85)), 
+              var(--bg-image) center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+/* NAVBAR */
+.police-navbar {
+  background: rgba(15, 23, 42, 0.95);
+  color: white;
+  padding: 15px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 3px solid var(--police-red);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.police-navbar h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.police-navbar h2::before {
+  content: '👮';
+}
+
+.welcome-text {
+  font-size: 14px;
+  color: #cbd5e1;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+.welcome-text b {
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-links span {
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #94a3b8;
+  transition: all 0.3s;
+}
+
+.nav-links span:hover {
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-links .active {
+  color: white;
+  background: linear-gradient(135deg, var(--police-blue), var(--police-red));
+  box-shadow: 0 4px 12px rgba(30, 64, 175, 0.3);
+}
+
+.logout-btn {
+  background: linear-gradient(135deg, var(--police-red), #b91c1c);
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.logout-btn::before {
+  content: '🚪';
+}
+
+.logout-btn:hover {
+  background: linear-gradient(135deg, #b91c1c, #991b1b);
+  transform: translateY(-2px);
+}
+
+/* CONTENT */
+.dashboard-container {
+  max-width: 900px;
+  width: 95%;
+  margin: 30px auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.97);
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.dashboard-container h3 {
+  color: var(--police-blue);
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--police-red);
+  font-size: 24px;
+}
+
+/* FORM ELEMENTS */
+.dashboard-container input,
+.dashboard-container textarea {
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.3s;
+}
+
+.dashboard-container input:focus,
+.dashboard-container textarea:focus {
+  outline: none;
+  border-color: var(--police-blue);
+  box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.1);
+}
+
+.dashboard-container textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* BUTTONS */
+.dashboard-container button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, var(--police-blue), var(--police-dark));
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.3s;
+}
+
+.dashboard-container button:hover {
+  background: linear-gradient(135deg, var(--police-dark), #1e3a8a);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(30, 64, 175, 0.2);
+}
+
+/* MESSAGES */
+.success {
+  background: #dcfce7;
+  color: #059669;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #86efac;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.success::before {
+  content: '✓';
+  font-weight: bold;
+}
+
+/* CASE CARDS */
+.case-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid var(--police-blue);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s;
+}
+
+.case-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.case-card b {
+  color: var(--police-blue);
+  font-size: 15px;
+}
+
+.case-card p {
+  margin: 8px 0;
+  color: #4b5563;
+  font-size: 14px;
+}
+
+/* ENTER COURT BUTTON */
+.case-card > button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, var(--police-red), #b91c1c);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.case-card > button:hover {
+  background: linear-gradient(135deg, #b91c1c, #991b1b);
+  transform: translateY(-2px);
+}
+
+/* EMPTY STATE */
+.dashboard-container > p {
+  text-align: center;
+  color: #6b7280;
+  padding: 40px;
+  font-style: italic;
+  background: #f9fafb;
+  border-radius: 8px;
+  border: 2px dashed #d1d5db;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .police-navbar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+    padding: 15px;
+  }
+  
+  .nav-links {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .dashboard-container {
+    margin: 15px;
+    padding: 20px;
+    width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard-container h3 {
+    font-size: 20px;
+  }
+  
+  .case-card {
+    padding: 15px;
+  }
+  
+  .nav-links span {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+  
+  .logout-btn {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+}

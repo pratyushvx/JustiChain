@@ -1,0 +1,377 @@
+/* HearingHistory.module.css */
+
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+  padding: 40px 20px;
+}
+
+.header {
+  max-width: 1000px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1e3c72;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.header h2::before {
+  content: '📜';
+  font-size: 2rem;
+}
+
+.caseIdBadge {
+  display: inline-block;
+  background: #1e3c72;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.hearingsContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  color: #6b7280;
+  font-size: 1.1rem;
+  font-style: italic;
+  border: 2px dashed #d1d5db;
+}
+
+.hearingCard {
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 25px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e7eb;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.hearingCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.hearingCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background: linear-gradient(to bottom, #1e3c72, #2a5298);
+}
+
+.hearingNumber {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1e3c72;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hearingNumber::before {
+  content: '⚖️';
+  font-size: 1.2rem;
+}
+
+.hearingInfo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.infoLabel {
+  font-weight: 600;
+  color: #4b5563;
+  min-width: 100px;
+}
+
+.infoValue {
+  color: #1f2937;
+  font-weight: 500;
+}
+
+.dateValue {
+  color: #1e3c72;
+  font-weight: 600;
+  background: #dbeafe;
+  padding: 5px 12px;
+  border-radius: 8px;
+}
+
+.decisionValue {
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.decisionPending {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.decisionWin {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.decisionLoss {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.decisionNext {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, #e5e7eb, transparent);
+  margin: 25px 0;
+}
+
+.judgeOrder {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  border-left: 4px solid #f59e0b;
+}
+
+.judgeOrderTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #92400e;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.judgeOrderTitle::before {
+  content: '👨‍⚖️';
+}
+
+.judgeOrderText {
+  color: #374151;
+  line-height: 1.7;
+  white-space: pre-wrap;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 1rem;
+}
+
+.statementsSection {
+  margin-top: 25px;
+}
+
+.statementsTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1e3c72;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.statementsTitle::before {
+  content: '💬';
+}
+
+.noStatements {
+  color: #6b7280;
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+  background: #f9fafb;
+  border-radius: 10px;
+  border: 1px dashed #d1d5db;
+}
+
+.messageList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.messageItem {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 15px;
+  border-left: 4px solid;
+}
+
+.messageJudge {
+  border-left-color: #f59e0b;
+  background: linear-gradient(90deg, rgba(245, 158, 11, 0.05), transparent);
+}
+
+.messageCitizen {
+  border-left-color: #3b82f6;
+  background: linear-gradient(90deg, rgba(59, 130, 246, 0.05), transparent);
+}
+
+.messageLawyer {
+  border-left-color: #10b981;
+  background: linear-gradient(90deg, rgba(16, 185, 129, 0.05), transparent);
+}
+
+.messagePolice {
+  border-left-color: #ef4444;
+  background: linear-gradient(90deg, rgba(239, 68, 68, 0.05), transparent);
+}
+
+.messageOpponent {
+  border-left-color: #8b5cf6;
+  background: linear-gradient(90deg, rgba(139, 92, 246, 0.05), transparent);
+}
+
+.messageSender {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.senderName {
+  font-weight: 700;
+  color: #1f2937;
+  text-transform: capitalize;
+  font-size: 0.95rem;
+}
+
+.senderIcon {
+  font-size: 1rem;
+}
+
+.messageText {
+  color: #4b5563;
+  line-height: 1.6;
+  margin-left: 26px;
+}
+
+.backButton {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: #1e3c72;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+  z-index: 100;
+  box-shadow: 0 4px 15px rgba(30, 60, 114, 0.2);
+}
+
+.backButton:hover {
+  background: #16305c;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(30, 60, 114, 0.3);
+}
+
+.backButton::before {
+  content: '←';
+  font-size: 1.2rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hearingCard {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 15px;
+  }
+  
+  .header h2 {
+    font-size: 2rem;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .hearingCard {
+    padding: 20px;
+  }
+  
+  .hearingInfo {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .backButton {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h2 {
+    font-size: 1.7rem;
+  }
+  
+  .hearingNumber {
+    font-size: 1.1rem;
+  }
+  
+  .judgeOrder,
+  .messageItem {
+    padding: 15px;
+  }
+}
