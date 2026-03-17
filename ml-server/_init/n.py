@@ -3,7 +3,7 @@ import json
 import re
 
 # Configure Gemini API directly with key
-genai.configure(api_key="AIzaSyBVo3jde1ulwoI843USgV9S4W0jC_QYfpg")
+genai.configure(api_key="my-api-key")
 
 # Use free model
 model = genai.GenerativeModel("gemini-2.5-flash")
