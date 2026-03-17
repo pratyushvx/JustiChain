@@ -211,4 +211,24 @@ router.post("/predict-case-type", auth, async (req, res) => {
   }
 });
 
+/**
+ * Verify case ownership for hearing history
+ */
+router.post("/verify-case", auth, async (req, res) => {
+  if (req.user.role !== "citizen")
+    return res.status(403).json({ msg: "Access denied" });
+
+  const { caseId } = req.body;
+
+  const c = await Case.findOne({ caseId });
+
+  if (!c)
+    return res.status(404).json({ msg: "Case not found" });
+
+  if (c.citizenId.toString() !== req.user.id)
+    return res.status(403).json({ msg: "Unauthorized case access" });
+
+  res.json({ success: true });
+});
+
 module.exports = router;

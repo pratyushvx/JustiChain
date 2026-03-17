@@ -5,13 +5,18 @@ from case_classifier.predict_model import CaseTypePredictor
 from _init.n import generate_ai_analysis
 from Judge_Decision.judge_system import JudgeSystem
 
+
+from summarizer import CaseSummarizer
+
 app = Flask(__name__)
 
-print("Loading Case Type Predictor...")
 case_predictor = CaseTypePredictor()
 
-print("Loading Judge Decision System...")
+
 judge_system = JudgeSystem()
+
+
+summarizer = CaseSummarizer()
 
 
 @app.route("/")
@@ -84,6 +89,20 @@ def predict_verdict():
         summary = build_case_summary(case_data)
         print("Case summary built.")
 
+        # ✅ NEW: AI SUMMARY USING BART (NO CHANGE TO EXISTING LOGIC)
+        print("\n➡ Generating AI descriptive summary...")
+
+        full_text = (
+            summary.get("citizen_text", "") + " " +
+            summary.get("opponent_text", "") + " " +
+            summary.get("police_text", "")
+        )
+
+        ai_summary = summarizer.summarize(full_text)
+
+        print("AI Summary:")
+        print(ai_summary)
+
         print("\n➡ Running statement analyzer...")
         statement_result = analyze_statements(messages)
         print("Statement analysis:", statement_result)
@@ -99,7 +118,6 @@ def predict_verdict():
 
         for msg in messages:
 
-            # FIX: handle sender OR from
             sender = msg.get("sender", msg.get("from", "")).lower()
             text = msg.get("text", "")
 
@@ -136,8 +154,6 @@ def predict_verdict():
                 "submitter": ev.get("submitter", "unknown")
             })
 
-        print("\nProcessed Evidence:")
-        print(evidence_list)
 
         # ---------------------------
         # TEMP CASE ID
@@ -145,7 +161,7 @@ def predict_verdict():
 
         case_id = "temp_" + str(hash(str(data)) % 10000)
 
-        print("\nTemporary Case ID:", case_id)
+      
 
         # ---------------------------
         # PREPARE TEXT FOR CLASSIFIER
@@ -161,8 +177,7 @@ def predict_verdict():
                 summary.get("police_text", "")
             )
 
-        print("\nCombined text sent to classifier:")
-        print(combined_text)
+ 
 
         # ---------------------------
         # CASE TYPE PREDICTION
@@ -172,7 +187,7 @@ def predict_verdict():
         case_result = case_predictor.predict(combined_text)
         case_type = case_result["case_type"]
 
-        print("Predicted case type:", case_type)
+
 
         # ---------------------------
         # JUDGE SYSTEM
@@ -192,12 +207,6 @@ def predict_verdict():
         print("\n➡ Processing hearing...")
         judge_result = judge_system.process_hearing(case_id, hearing_data)
 
-        print("Judge system result:")
-        print(judge_result)
-
-        # ---------------------------
-        # GEMINI AI ANALYSIS
-        # ---------------------------
 
         print("\n➡ Generating AI reasoning...")
 
@@ -207,8 +216,7 @@ def predict_verdict():
             previous_ai
         )
 
-        print("AI result:")
-        print(ai_result)
+
 
         # ---------------------------
         # FINAL RESPONSE
@@ -217,6 +225,9 @@ def predict_verdict():
         result = {
 
             "case_summary": summary,
+
+            # ✅ NEW FIELD (SAFE ADDITION)
+            "ai_case_summary": ai_summary,
 
             "statement_analysis": statement_result,
 

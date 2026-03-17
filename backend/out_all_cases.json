@@ -1,0 +1,1362 @@
+[
+  {
+    "evidenceSummary": {
+      "totalEvidence": 0,
+      "avgEvidenceScore": 0,
+      "highRiskFlags": false
+    },
+    "predictedCaseType": null,
+    "predictionConfidence": null,
+    "lawyerId": null,
+    "policeId": null,
+    "courtroomOpen": false,
+    "_id": "68b89e355de40b5316e13ead",
+    "title": "Land Ownership Dispute",
+    "description": "Dispute over farmland ownership between two families.",
+    "status": "Ongoing",
+    "hearings": [],
+    "__v": 0,
+    "mlAnalyses": [],
+    "hearingSnapshots": [],
+    "createdAt": "2026-03-15T21:49:14.306Z"
+  },
+  {
+    "opponent": "ggdgdh",
+    "evidenceSummary": {
+      "totalEvidence": 0,
+      "avgEvidenceScore": 0,
+      "highRiskFlags": false
+    },
+    "predictedCaseType": null,
+    "predictionConfidence": null,
+    "_id": "6966ad311c52d7ee80589dbd",
+    "caseId": "JC-1768336689683",
+    "title": "zzjajjssss",
+    "description": "sdsfebdfbfdnbdgnngdndng",
+    "caseType": "Crime",
+    "citizenId": "6966ab34ed3d96fb28dc5b79",
+    "lawyerId": null,
+    "status": "CREATED",
+    "createdAt": "2026-01-13T20:38:09.687Z",
+    "__v": 1,
+    "courtroomOpen": false,
+    "hearings": [],
+    "policeId": "6967b163c9a05dce748162dd",
+    "mlAnalyses": [],
+    "hearingSnapshots": []
+  },
+  {
+    "opponent": {
+      "name": "annsdd",
+      "email": "pratyushcusatx@gmail.com"
+    },
+    "evidenceSummary": {
+      "totalEvidence": 0,
+      "avgEvidenceScore": 0,
+      "highRiskFlags": false
+    },
+    "predictedCaseType": null,
+    "predictionConfidence": null,
+    "_id": "6966ae05ad26d4ef48f22893",
+    "caseId": "JC-1768336901098",
+    "title": "dwvngbny",
+    "description": "bfsfnmghmghmfhmhfmhfmhm",
+    "caseType": "Civil",
+    "citizenId": "6966ab34ed3d96fb28dc5b79",
+    "lawyerId": "6964d3a2f81ccc9a0ddc911a",
+    "status": "HEARING_SCHEDULED",
+    "createdAt": "2026-01-13T20:41:41.101Z",
+    "__v": 2,
+    "policeId": "6964c9d5019e372020c51c85",
+    "courtroomOpen": false,
+    "updatedAt": "2026-01-13T22:08:06.886Z",
+    "hearingDate": "2026-01-15T00:33:00.000Z",
+    "courtAccessPassword": "8b02cbc6",
+    "courtRoomId": "COURT_1769526237941",
+    "hearings": [
+      {
+        "judgeDecision": null,
+        "hearingId": "HEARING_1768350821972",
+        "hearingDate": "2026-01-15T00:33:00.000Z",
+        "isOpen": true,
+        "_id": "6966e465ce6083a92290e6d1",
+        "courtRoomId": "COURT_1769526237941",
+        "password": "8b02cbc6",
+        "messages": []
+      }
+    ],
+    "mlAnalyses": [],
+    "hearingSnapshots": []
+  },
+  {
+    "opponent": {
+      "name": "gg",
+      "email": "g"
+    },
+    "evidenceSummary": {
+      "totalEvidence": 0,
+      "avgEvidenceScore": 0,
+      "highRiskFlags": false
+    },
+    "predictedCaseType": null,
+    "predictionConfidence": null,
+    "_id": "696d07605198e08780db0f42",
+    "caseId": "JC-1768752992565",
+    "title": "gghhgfgghytggttgtfghh ",
+    "description": "l hbhbjvgjcfycfcgvhjvhvhjvhjvhjvh",
+    "caseType": "Crime",
+    "citizenId": "6963ee64b80d515aac1f073f",
+    "lawyerId": null,
+    "policeId": "6964c9d5019e372020c51c85",
+    "status": "HEARING_SCHEDULED",
+    "courtroomOpen": true,
+    "hearings": [
+      {
+        "hearingId": "HEARING_1769544197793",
+        "hearingDate": "2026-01-29T20:03:00.000Z",
+        "isOpen": true,
+        "judgeDecision": null,
+        "_id": "69791a05cc194978d5d2145e",
+        "messages": [],
+        "courtRoomId": "COURT_1769544223366"
+      }
+    ],
+    "createdAt": "2026-01-18T16:16:32.582Z",
+    "__v": 1,
+    "hearingDate": "2026-01-29T20:03:00.000Z",
+    "courtAccessPassword": "7c8d76e0",
+    "courtRoomId": "COURT_1769544223366",
+    "mlAnalyses": [],
+    "hearingSnapshots": []
+  },
+  {
+    "opponent": {
+      "name": "Ayush Jha ",
+      "email": "ayushjha@gmail.com"
+    },
+    "evidenceSummary": {
+      "totalEvidence": 0,
+      "avgEvidenceScore": 0,
+      "highRiskFlags": false
+    },
+    "predictedCaseType": null,
+    "predictionConfidence": null,
+    "_id": "6978d54b8f6f5cacc4e6743e",
+    "caseId": "JC-1769526603758",
+    "title": "Harrashment ",
+    "description": "I was walking in road . Someone came and hit me with Bike .",
+    "caseType": "Crime",
+    "citizenId": "6978d4b98f6f5cacc4e67422",
+    "lawyerId": "6978d5048f6f5cacc4e6742e",
+    "policeId": "6978d4e68f6f5cacc4e6742b",
+    "status": "CLOSED",
+    "courtroomOpen": false,
+    "hearings": [
+      {
+        "judgeDecision": null,
+        "hearingId": "HEARING_1769526677619",
+        "hearingDate": "2026-01-28T15:11:00.000Z",
+        "isOpen": false,
+        "_id": "6978d5958f6f5cacc4e67486",
+        "courtRoomId": "COURT_1769527528279",
+        "password": "d53d783e",
+        "messages": []
+      },
+      {
+        "judgeDecision": null,
+        "hearingId": "HEARING_1769536705480",
+        "hearingDate": "2026-01-05T17:58:00.000Z",
+        "isOpen": false,
+        "_id": "6978fcc1aea1231787894972",
+        "courtRoomId": "COURT_1769536787020",
+        "password": "a6348d02",
+        "messages": []
+      },
+      {
+        "judgeDecision": null,
+        "hearingId": "HEARING_1769536791366",
+        "hearingDate": "2026-01-07T17:59:00.000Z",
+        "isOpen": false,
+        "_id": "6978fd17aea1231787894999",
+        "messages": []
+      },
+      {
+        "hearingId": "HEARING_1769536792930",
+        "hearingDate": "2026-01-28T17:59:00.000Z",
+        "isOpen": false,
+        "_id": "6978fd18aea12317878949a7",
+        "courtRoomId": "COURT_1769540040143",
+        "password": "6cf9563e",
+        "messages": [
+          {
+            "sender": "judge",
+            "text": "jhvvhj",
+            "time": "1/27/2026, 11:43:49 PM",
+            "_id": "6979005d4f1dbe3f10983160"
+          },
+          {
+            "sender": "judge",
+            "text": "hbwfebofdni",
+            "time": "1/28/2026, 12:01:49 AM",
+            "_id": "697904954f1dbe3f109831bf"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:07:26 AM",
+            "_id": "697905e6963afc180dd66f56"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:07:27 AM",
+            "_id": "697905e7963afc180dd66f60"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:07:28 AM",
+            "_id": "697905e8963afc180dd66f6b"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:07:28 AM",
+            "_id": "697905e8963afc180dd66f77"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:07:39 AM",
+            "_id": "697905f3963afc180dd66fbf"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed LAWYER to speak",
+            "time": "12:07:51 AM",
+            "_id": "697905ff963afc180dd66fcd"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed POLICE to speak",
+            "time": "12:07:51 AM",
+            "_id": "697905ff963afc180dd66fdc"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed OPPONENT to speak",
+            "time": "12:07:52 AM",
+            "_id": "69790600963afc180dd66fec"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge muted everyone",
+            "time": "12:07:53 AM",
+            "_id": "69790601963afc180dd66ffd"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed CITIZEN to speak",
+            "time": "12:07:53 AM",
+            "_id": "69790601963afc180dd6700f"
+          },
+          {
+            "sender": "judge",
+            "text": "zssf",
+            "time": "12:07:58 AM",
+            "_id": "69790606963afc180dd67022"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:12:33 AM",
+            "_id": "69790719963afc180dd67036"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:12:40 AM",
+            "_id": "69790720963afc180dd6704b"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:13:14 AM",
+            "_id": "69790742963afc180dd67102"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:14:55 AM",
+            "_id": "697907a7963afc180dd6716d"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:19:39 AM",
+            "_id": "697908c398630fda01e513ac"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:19:39 AM",
+            "_id": "697908c398630fda01e513c5"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:19:45 AM",
+            "_id": "697908c998630fda01e5140f"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:20:09 AM",
+            "_id": "697908e198630fda01e514c6"
+          },
+          {
+            "sender": "judge",
+            "text": "fjgn",
+            "time": "12:20:14 AM",
+            "_id": "697908e698630fda01e514e2"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:21:21 AM",
+            "_id": "6979092998630fda01e515c2"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:23:48 AM",
+            "_id": "697909bcddd4a8628ec592bd"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:23:55 AM",
+            "_id": "697909c3ddd4a8628ec59316"
+          }
+        ],
+        "closedAt": "2026-01-27T18:50:22.739Z",
+        "judgeDecision": "WIN",
+        "judgementText": "hsjjskslsdhdkdkdskkallalkajkaaaaaaaaaaaaa"
+      },
+      {
+        "hearingId": "HEARING_1769540043851",
+        "hearingDate": "2026-01-29T18:54:00.000Z",
+        "isOpen": false,
+        "judgeDecision": "WIN",
+        "_id": "697909cbddd4a8628ec59377",
+        "messages": [
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:24:07 AM",
+            "_id": "697909cfddd4a8628ec593fe"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:29:37 AM",
+            "_id": "69790b1914af140a946e39c1"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:29:47 AM",
+            "_id": "69790b2314af140a946e3a26"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:32:10 AM",
+            "_id": "69790bb22cc221bb3c48fab9"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:40:47 AM",
+            "_id": "69790db72cc221bb3c48fb6a"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:41:11 AM",
+            "_id": "69790dd05b7b52aa01905b95"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:41:12 AM",
+            "_id": "69790dd05b7b52aa01905bbc"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:41:12 AM",
+            "_id": "69790dd05b7b52aa01905be4"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "12:41:12 AM",
+            "_id": "69790dd05b7b52aa01905c0d"
+          }
+        ],
+        "courtRoomId": "COURT_1769540527598",
+        "closedAt": "2026-01-27T19:11:19.555Z",
+        "judgementText": "qqqq"
+      }
+    ],
+    "createdAt": "2026-01-27T15:10:03.759Z",
+    "__v": 39,
+    "hearingDate": null,
+    "courtAccessPassword": "8b5c821d",
+    "courtRoomId": "COURT_1769540527598",
+    "mlAnalyses": [],
+    "hearingSnapshots": []
+  },
+  {
+    "opponent": {
+      "name": "4444",
+      "email": "pratyushcusatx@gmail.com"
+    },
+    "evidenceSummary": {
+      "totalEvidence": 0,
+      "avgEvidenceScore": 0,
+      "highRiskFlags": false
+    },
+    "predictedCaseType": null,
+    "predictionConfidence": null,
+    "_id": "69791a58cc194978d5d21693",
+    "caseId": "JC-1769544280974",
+    "title": "HHHHHHHHHHHHHHHHHHHH",
+    "description": "DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD",
+    "caseType": "Crime",
+    "citizenId": "6978d4b98f6f5cacc4e67422",
+    "lawyerId": "6978d5048f6f5cacc4e6742e",
+    "policeId": "6967b163c9a05dce748162dd",
+    "status": "HEARING_SCHEDULED",
+    "courtroomOpen": true,
+    "hearings": [
+      {
+        "hearingId": "HEARING_1769544342738",
+        "hearingDate": "2026-01-13T20:05:00.000Z",
+        "isOpen": false,
+        "judgeDecision": "NEXT_HEARING",
+        "_id": "69791a96cc194978d5d218fd",
+        "messages": [
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "1:35:48 AM",
+            "_id": "69791a9ccc194978d5d21960"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed CITIZEN to speak",
+            "time": "1:36:49 AM",
+            "_id": "69791ad9cc194978d5d21965"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed LAWYER to speak",
+            "time": "1:36:50 AM",
+            "_id": "69791adacc194978d5d2196b"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed POLICE to speak",
+            "time": "1:36:51 AM",
+            "_id": "69791adbcc194978d5d21972"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed OPPONENT to speak",
+            "time": "1:36:52 AM",
+            "_id": "69791adccc194978d5d2197a"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge muted everyone",
+            "time": "1:36:54 AM",
+            "_id": "69791adecc194978d5d21983"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed LAWYER to speak",
+            "time": "1:36:55 AM",
+            "_id": "69791adfcc194978d5d2198d"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed POLICE to speak",
+            "time": "1:36:56 AM",
+            "_id": "69791ae0cc194978d5d21998"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed OPPONENT to speak",
+            "time": "1:36:56 AM",
+            "_id": "69791ae0cc194978d5d219a4"
+          },
+          {
+            "sender": "judge",
+            "text": "hhh",
+            "time": "1:37:04 AM",
+            "_id": "69791ae8cc194978d5d219b1"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "2:29:14 AM",
+            "_id": "69792722cc194978d5d21e19"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "2:35:01 AM",
+            "_id": "6979287dcc194978d5d21ea4"
+          }
+        ],
+        "courtRoomId": "COURT_1769547950308",
+        "closedAt": "2026-01-27T21:05:09.491Z",
+        "judgementText": "sdfghjk"
+      },
+      {
+        "hearingId": "HEARING_1769547953889",
+        "hearingDate": "2026-01-29T21:05:00.000Z",
+        "isOpen": false,
+        "judgeDecision": "NEXT_HEARING",
+        "_id": "697928b1cc194978d5d21f44",
+        "messages": [
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "2:35:56 AM",
+            "_id": "697928b4cc194978d5d21fdb"
+          },
+          {
+            "sender": "judge",
+            "text": "niu",
+            "time": "2:36:03 AM",
+            "_id": "697928bbcc194978d5d21fed"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "3:08:36 AM",
+            "_id": "6979305c903359d24f56766b"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed LAWYER to speak",
+            "time": "3:08:42 AM",
+            "_id": "69793062903359d24f56767f"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed POLICE to speak",
+            "time": "3:08:45 AM",
+            "_id": "69793065903359d24f567694"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed OPPONENT to speak",
+            "time": "3:08:47 AM",
+            "_id": "69793067903359d24f5676aa"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge muted everyone",
+            "time": "3:09:08 AM",
+            "_id": "6979307c903359d24f5676c1"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed CITIZEN to speak",
+            "time": "3:09:09 AM",
+            "_id": "6979307d903359d24f5676d9"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed LAWYER to speak",
+            "time": "3:09:10 AM",
+            "_id": "6979307e903359d24f5676f2"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed POLICE to speak",
+            "time": "3:09:11 AM",
+            "_id": "6979307f903359d24f56770c"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed OPPONENT to speak",
+            "time": "3:09:11 AM",
+            "_id": "6979307f903359d24f567727"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge muted everyone",
+            "time": "3:09:12 AM",
+            "_id": "69793080903359d24f567743"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed CITIZEN to speak",
+            "time": "3:09:14 AM",
+            "_id": "69793082903359d24f567760"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed LAWYER to speak",
+            "time": "3:09:15 AM",
+            "_id": "69793083903359d24f56777e"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed POLICE to speak",
+            "time": "3:09:15 AM",
+            "_id": "69793083903359d24f56779d"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed OPPONENT to speak",
+            "time": "3:09:15 AM",
+            "_id": "69793083903359d24f5677bd"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed CITIZEN to speak",
+            "time": "3:09:16 AM",
+            "_id": "69793084903359d24f5677de"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed LAWYER to speak",
+            "time": "3:09:16 AM",
+            "_id": "69793084903359d24f567800"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed POLICE to speak",
+            "time": "3:09:17 AM",
+            "_id": "69793085903359d24f567823"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed OPPONENT to speak",
+            "time": "3:09:17 AM",
+            "_id": "69793085903359d24f567847"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge muted everyone",
+            "time": "3:09:18 AM",
+            "_id": "69793086903359d24f56786c"
+          }
+        ],
+        "courtRoomId": "COURT_1769549915289",
+        "closedAt": "2026-01-27T21:06:06.183Z",
+        "judgementText": "zzz"
+      },
+      {
+        "hearingId": "HEARING_1769672559374",
+        "hearingDate": "2025-12-31T07:42:00.000Z",
+        "isOpen": true,
+        "judgeDecision": null,
+        "_id": "697b0f6f1a8d214699f64b7c",
+        "messages": [
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "1:12:43 PM",
+            "_id": "697b0f731a8d214699f64ca9"
+          }
+        ],
+        "courtRoomId": "COURT_1769672562045"
+      }
+    ],
+    "createdAt": "2026-01-27T20:04:40.978Z",
+    "__v": 37,
+    "hearingDate": "2025-12-31T07:42:00.000Z",
+    "courtAccessPassword": "e5e24f4e",
+    "courtRoomId": "COURT_1769672562045",
+    "mlAnalyses": [],
+    "hearingSnapshots": []
+  },
+  {
+    "opponent": {
+      "name": "Global Electronics Retailers Ltd",
+      "email": "disputes@globalelectronics.com"
+    },
+    "evidenceSummary": {
+      "totalEvidence": 0,
+      "avgEvidenceScore": 0,
+      "highRiskFlags": false
+    },
+    "predictedCaseType": null,
+    "predictionConfidence": null,
+    "_id": "697a32a0031d105e630f460f",
+    "caseId": "JC-1769616032950",
+    "title": "Refund for Defective Gaming Laptop",
+    "description": "I purchased a high-end laptop on January 10th. Within three days, the motherboard failed. The authorized service center confirmed the hardware defect but the retailer is refusing to provide a refund or a replacement, insisting only on a repair that will take over 30 days.",
+    "caseType": "Civil",
+    "citizenId": "6978d4b98f6f5cacc4e67422",
+    "lawyerId": "6978d5048f6f5cacc4e6742e",
+    "policeId": "6978d4e68f6f5cacc4e6742b",
+    "status": "CLOSED",
+    "courtroomOpen": false,
+    "hearings": [
+      {
+        "hearingId": "HEARING_1769616207102",
+        "hearingDate": "2026-01-28T16:03:00.000Z",
+        "isOpen": false,
+        "judgeDecision": "NEXT_HEARING",
+        "_id": "697a334f031d105e630f493f",
+        "messages": [
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "9:33:34 PM",
+            "_id": "697a3356031d105e630f49e8"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "CITIZEN joined the courtroom",
+            "time": "9:34:05 PM",
+            "_id": "697a3375031d105e630f4a90"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "POLICE joined the courtroom",
+            "time": "9:34:33 PM",
+            "_id": "697a3391031d105e630f4af4"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "LAWYER joined the courtroom",
+            "time": "9:34:40 PM",
+            "_id": "697a3398031d105e630f4b02"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed CITIZEN to speak",
+            "time": "9:42:05 PM",
+            "_id": "697a3555031d105e630f4b0c"
+          },
+          {
+            "sender": "citizen",
+            "text": "Presented the invoice and a report from the authorized service center stating the motherboard failed due to a manufacturing defect within 3 days of purchase.",
+            "time": "9:42:20 PM",
+            "_id": "697a3564031d105e630f4b15"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed LAWYER to speak",
+            "time": "9:42:52 PM",
+            "_id": "697a3584031d105e630f4b1f"
+          },
+          {
+            "sender": "lawyer",
+            "text": "Argued that the damage could have been caused by a power surge at the Citizen's home and requested time to conduct an internal technical audit.",
+            "time": "9:42:58 PM",
+            "_id": "697a358a031d105e630f4b2a"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "11:38:23 AM",
+            "_id": "697af9589989350239db35a0"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "OPPONENT joined the courtroom",
+            "time": "11:38:26 AM",
+            "_id": "697af95a9989350239db35b8"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge muted everyone",
+            "time": "11:41:15 AM",
+            "_id": "697afa039989350239db35c6"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed OPPONENT to speak",
+            "time": "11:41:17 AM",
+            "_id": "697afa059989350239db35d5"
+          },
+          {
+            "sender": "opponent",
+            "text": "hhhhhhhhhhh",
+            "time": "11:41:30 AM",
+            "_id": "697afa129989350239db35e5"
+          }
+        ],
+        "courtRoomId": "COURT_1769666902101",
+        "closedAt": "2026-01-28T16:13:36.301Z",
+        "judgementText": "Granted 7 days for the audit. The burden of proof lies on the retailer to prove \"external damage"
+      },
+      {
+        "hearingId": "HEARING_1769667205626",
+        "hearingDate": "2026-01-29T06:13:00.000Z",
+        "isOpen": false,
+        "judgeDecision": "WIN",
+        "_id": "697afa859989350239db37dc",
+        "messages": [
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "11:43:29 AM",
+            "_id": "697afa899989350239db38bd"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "POLICE joined the courtroom",
+            "time": "11:43:37 AM",
+            "_id": "697afa919989350239db38e3"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "LAWYER joined the courtroom",
+            "time": "11:43:44 AM",
+            "_id": "697afa989989350239db390b"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "CITIZEN joined the courtroom",
+            "time": "11:44:14 AM",
+            "_id": "697afab69989350239db39f5"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "OPPONENT joined the courtroom",
+            "time": "11:45:16 AM",
+            "_id": "697afaf49989350239db3a33"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed OPPONENT to speak",
+            "time": "11:47:07 AM",
+            "_id": "697afb639989350239db3a4a"
+          },
+          {
+            "sender": "opponent",
+            "text": "Claimed their internal team found \"moisture indicators\" tripped, suggesting liquid damage.",
+            "time": "11:47:16 AM",
+            "_id": "697afb6c9989350239db3a62"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed LAWYER to speak",
+            "time": "11:47:35 AM",
+            "_id": "697afb7f9989350239db3a7b"
+          },
+          {
+            "sender": "lawyer",
+            "text": "Produced a time-stamped video of the unboxing and the initial failure, showing no liquid contact. They also highlighted that the authorized service center's initial report made no mention of moisture.",
+            "time": "11:47:41 AM",
+            "_id": "697afb859989350239db3a95"
+          },
+          {
+            "sender": "judge",
+            "text": "Dismissed the Opponent’s \"moisture\" claim as inconsistent with the primary evidence. Ordered a final settlement proposal.",
+            "time": "11:48:02 AM",
+            "_id": "697afb9a9989350239db3ab0"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed OPPONENT to speak",
+            "time": "11:48:21 AM",
+            "_id": "697afbad9989350239db3acc"
+          },
+          {
+            "sender": "opponent",
+            "text": "Offered a replacement unit but refused a refund.",
+            "time": "11:48:27 AM",
+            "_id": "697afbb39989350239db3ae9"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed CITIZEN to speak",
+            "time": "11:48:43 AM",
+            "_id": "697afbc39989350239db3b07"
+          },
+          {
+            "sender": "citizen",
+            "text": "Rejected the replacement, citing a loss of faith in the brand and the retailer's \"bad faith\" delay tactics.",
+            "time": "11:48:55 AM",
+            "_id": "697afbcf9989350239db3b26"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge muted everyone",
+            "time": "11:49:12 AM",
+            "_id": "697afbe09989350239db3b46"
+          },
+          {
+            "sender": "judge",
+            "text": "The Court finds Global Electronics Retailers Ltd. liable for selling a defective product and attempting to mislead the court with inconsistent technical reports.",
+            "time": "11:49:39 AM",
+            "_id": "697afbfb9989350239db3b67"
+          }
+        ],
+        "courtRoomId": "COURT_1769667207970",
+        "closedAt": "2026-01-29T06:19:50.036Z",
+        "judgementText": "Refund: The Opponent is ordered to issue a full refund of the purchase price ($2,500) within 48 hours.\nCompensation: The Opponent shall pay $300 for legal fees and \"mental agony\" caused by the delay."
+      }
+    ],
+    "createdAt": "2026-01-28T16:00:32.965Z",
+    "__v": 31,
+    "hearingDate": null,
+    "courtAccessPassword": "afda654d",
+    "courtRoomId": "COURT_1769667207970",
+    "mlAnalyses": [],
+    "hearingSnapshots": []
+  },
+  {
+    "opponent": {
+      "name": "Murari",
+      "email": "murari@gmail.com"
+    },
+    "evidenceSummary": {
+      "totalEvidence": 0,
+      "avgEvidenceScore": 0,
+      "highRiskFlags": false
+    },
+    "predictedCaseType": null,
+    "predictionConfidence": null,
+    "_id": "697b19cf57d08be1bdc002ed",
+    "caseId": "JC-1769675215311",
+    "title": "Withholding of $1,500 security deposit for \"painting and cleaning.\"",
+    "description": "Withholding of $1,500 security deposit for \"painting and cleaning.\"",
+    "caseType": "Civil",
+    "citizenId": "6978d4b98f6f5cacc4e67422",
+    "lawyerId": "6978d5048f6f5cacc4e6742e",
+    "policeId": "6978d4e68f6f5cacc4e6742b",
+    "status": "HEARING_SCHEDULED",
+    "courtroomOpen": false,
+    "hearings": [
+      {
+        "hearingId": "HEARING_1769675361437",
+        "hearingDate": "2026-01-29T08:29:00.000Z",
+        "isOpen": false,
+        "judgeDecision": "NEXT_HEARING",
+        "_id": "697b1a6157d08be1bdc0087f",
+        "messages": [
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "1:59:26 PM",
+            "_id": "697b1a6657d08be1bdc0096a"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "CITIZEN joined the courtroom",
+            "time": "1:59:52 PM",
+            "_id": "697b1a8057d08be1bdc00a54"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "LAWYER joined the courtroom",
+            "time": "2:00:02 PM",
+            "_id": "697b1a8a57d08be1bdc00a60"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "POLICE joined the courtroom",
+            "time": "2:00:07 PM",
+            "_id": "697b1a8f57d08be1bdc00a6e"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "OPPONENT joined the courtroom",
+            "time": "2:01:28 PM",
+            "_id": "697b1ae057d08be1bdc00a7c"
+          },
+          {
+            "sender": "judge",
+            "text": "This court is now in session. Citizen, you claim your former landlord is unlawfully withholding your deposit. Please state your case.",
+            "time": "2:02:31 PM",
+            "_id": "697b1b1f57d08be1bdc00a85"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed CITIZEN to speak",
+            "time": "2:02:47 PM",
+            "_id": "697b1b2f57d08be1bdc00a8f"
+          },
+          {
+            "sender": "citizen",
+            "text": "Thank you, Your Honor. I moved out on Dec 31st. I left the place spotless. I have photos taken an hour before I handed over the keys.",
+            "time": "2:02:53 PM",
+            "_id": "697b1b3557d08be1bdc00a9a"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed OPPONENT to speak",
+            "time": "2:03:38 PM",
+            "_id": "697b1b6257d08be1bdc00aa6"
+          },
+          {
+            "sender": "opponent",
+            "text": "My client, the landlord, had to repaint the entire living room because of \"excessive scuffing.\" That cost $1,200 alone. Here are the invoices.",
+            "time": "2:03:44 PM",
+            "_id": "697b1b6857d08be1bdc00ab3"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed POLICE to speak",
+            "time": "2:04:35 PM",
+            "_id": "697b1b9b57d08be1bdc00ac1"
+          },
+          {
+            "sender": "police",
+            "text": "Your Honor, I am submitting the move-out inspection report filed by the local housing authority into the record.",
+            "time": "2:04:43 PM",
+            "_id": "697b1ba357d08be1bdc00ad0"
+          },
+          {
+            "sender": "judge",
+            "text": "Police, does that report mention wall damage?",
+            "time": "2:05:09 PM",
+            "_id": "697b1bbd57d08be1bdc00ae0"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed POLICE to speak",
+            "time": "2:05:30 PM",
+            "_id": "697b1bd257d08be1bdc00af1"
+          },
+          {
+            "sender": "police",
+            "text": "It mentions \"standard wear and tear consistent with three years of residency,\" Your Honor.",
+            "time": "2:05:37 PM",
+            "_id": "697b1bd957d08be1bdc00b03"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "Judge allowed CITIZEN to speak",
+            "time": "2:06:00 PM",
+            "_id": "697b1bf057d08be1bdc00b16"
+          },
+          {
+            "sender": "citizen",
+            "text": "Exactly! I lived there for three years. A few marks are normal.",
+            "time": "2:06:04 PM",
+            "_id": "697b1bf457d08be1bdc00b2a"
+          }
+        ],
+        "courtRoomId": "COURT_1769675363394",
+        "closedAt": "2026-01-29T08:36:51.670Z",
+        "judgementText": "I’ve heard enough for today. Opponent, you must provide high-resolution photos of the \"damage\" before the next hearing. Adjourned."
+      }
+    ],
+    "createdAt": "2026-01-29T08:26:55.320Z",
+    "__v": 18,
+    "hearingDate": "2026-01-29T08:29:00.000Z",
+    "courtAccessPassword": "e82f7466",
+    "courtRoomId": "COURT_1769675363394",
+    "mlAnalyses": [],
+    "hearingSnapshots": []
+  },
+  {
+    "opponent": {
+      "name": "hah",
+      "email": "pratyushthakur7037@gmail.com"
+    },
+    "evidenceSummary": {
+      "totalEvidence": 0,
+      "avgEvidenceScore": 0,
+      "highRiskFlags": false
+    },
+    "predictedCaseType": null,
+    "predictionConfidence": null,
+    "_id": "697b1d9257d08be1bdc00d66",
+    "caseId": "JC-1769676178406",
+    "title": "shsjksk",
+    "description": "gjjss",
+    "caseType": "Civil",
+    "citizenId": "6978d4b98f6f5cacc4e67422",
+    "lawyerId": "6978d5048f6f5cacc4e6742e",
+    "policeId": "6978d4e68f6f5cacc4e6742b",
+    "status": "HEARING_SCHEDULED",
+    "courtroomOpen": false,
+    "hearings": [
+      {
+        "hearingId": "HEARING_1770021146483",
+        "hearingDate": "2026-02-02T08:32:00.000Z",
+        "isOpen": true,
+        "judgeDecision": null,
+        "_id": "6980611a1b31bde663bb6a07",
+        "messages": [
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "2:02:30 PM",
+            "_id": "6980611e1b31bde663bb6b16"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "JUDGE joined the courtroom",
+            "time": "2:02:45 PM",
+            "_id": "6980612d1b31bde663bb6b21"
+          },
+          {
+            "sender": "SYSTEM",
+            "text": "LAWYER joined the courtroom",
+            "time": "4:29:59 PM",
+            "_id": "698083af3a6a5790e9558ff9"
+          }
+        ],
+        "courtRoomId": "COURT_1770021148357"
+      },
+      {
+        "hearingId": "HEARING_1770030047223",
+        "hearingDate": "2026-02-02T11:00:00.000Z",
+        "isOpen": false,
+        "judgeDecision": null,
+        "_id": "698083df3a6a5790e9559113",
+        "messages": []
+      }
+    ],
+    "createdAt": "2026-01-29T08:42:58.408Z",
+    "__v": 6,
+    "caseMessages": [
+      {
+        "sender": "citizen",
+        "text": "hii",
+        "time": "4:29:19 PM",
+        "_id": "698083873a6a5790e9558edc"
+      }
+    ],
+    "hearingDate": "2026-02-02T11:00:00.000Z",
+    "courtAccessPassword": "68fa916f",
+    "courtRoomId": "COURT_1770021148357",
+    "mlAnalyses": [],
+    "hearingSnapshots": []
+  },
+  {
+    "opponent": {
+      "name": "sqwws",
+      "email": "sxsx"
+    },
+    "evidenceSummary": {
+      "totalEvidence": 0,
+      "avgEvidenceScore": 0,
+      "highRiskFlags": false
+    },
+    "predictedCaseType": null,
+    "predictionConfidence": null,
+    "_id": "698085bcd69d3199a6159def",
+    "caseId": "JC/CV/DS/2026/00001",
+    "title": "m,llxsa",
+    "description": "xxsxx",
+    "caseType": "Civil Dispute",
+    "citizenId": "6978d4b98f6f5cacc4e67422",
+    "lawyerId": "6978d5048f6f5cacc4e6742e",
+    "policeId": null,
+    "status": "LAWYER_ASSIGNED",
+    "courtroomOpen": false,
+    "hearings": [],
+    "caseMessages": [],
+    "createdAt": "2026-02-02T11:08:44.480Z",
+    "__v": 0,
+    "mlAnalyses": [],
+    "hearingSnapshots": []
+  },
+  {
+    "opponent": {
+      "name": "mj",
+      "email": " "
+    },
+    "evidenceSummary": {
+      "totalEvidence": 0,
+      "avgEvidenceScore": 0,
+      "highRiskFlags": false
+    },
+    "predictedCaseType": null,
+    "predictionConfidence": null,
+    "_id": "698094c2815a40021eca00a2",
+    "caseId": "JC/CR/CY/2026/00001",
+    "title": "m",
+    "description": "j",
+    "caseType": "Cyber Crime",
+    "citizenId": "6978d4b98f6f5cacc4e67422",
+    "lawyerId": "6978d5048f6f5cacc4e6742e",
+    "policeId": "6978d4e68f6f5cacc4e6742b",
+    "status": "HEARING_SCHEDULED",
+    "courtroomOpen": true,
+    "hearings": [
+      {
+        "hearingId": "HEARING_1770045414204",
+        "hearingDate": "2026-02-02T15:16:00.000Z",
+        "isOpen": true,
+        "judgeDecision": null,
+        "_id": "6980bfe625d924514cde1edc",
+        "messages": [],
+        "courtRoomId": "COURT_1770045421060"
+      }
+    ],
+    "caseMessages": [],
+    "createdAt": "2026-02-02T12:12:50.625Z",
+    "__v": 1,
+    "hearingDate": "2026-02-02T15:16:00.000Z",
+    "courtAccessPassword": "311a99d8",
+    "courtRoomId": "COURT_1770045421060",
+    "mlAnalyses": [],
+    "hearingSnapshots": []
+  },
+  {
+    "opponent": {
+      "name": "PRIYANSHU",
+      "email": "priyanshu@gmail.com"
+    },
+    "evidenceSummary": {
+      "totalEvidence": 0,
+      "avgEvidenceScore": 0,
+      "highRiskFlags": false
+    },
+    "predictedCaseType": null,
+    "predictionConfidence": null,
+    "_id": "6980bc459f89f53d2f377bff",
+    "caseId": "JC/CR/CY/2026/00002",
+    "title": "Student got Accident",
+    "description": "Car Driver was Drunk HE CRashed his vehicle near me ",
+    "caseType": "Cyber Crime",
+    "citizenId": "6978d4b98f6f5cacc4e67422",
+    "lawyerId": "6978d5048f6f5cacc4e6742e",
+    "policeId": "6978d4e68f6f5cacc4e6742b",
+    "status": "HEARING_SCHEDULED",
+    "courtroomOpen": true,
+    "hearings": [
+      {
+        "hearingId": "HEARING_1770044540789",
+        "hearingDate": "2026-02-02T15:02:00.000Z",
+        "isOpen": false,
+        "judgeDecision": null,
+        "_id": "6980bc7c9f89f53d2f3780d5",
+        "messages": [],
+        "courtRoomId": "COURT_1770044583749"
+      },
+      {
+        "hearingId": "HEARING_1770044847918",
+        "hearingDate": "2026-02-02T15:07:00.000Z",
+        "isOpen": false,
+        "judgeDecision": null,
+        "_id": "6980bdaf83b83639376f3ba5",
+        "messages": [],
+        "courtRoomId": "COURT_1770044859077"
+      },
+      {
+        "hearingId": "HEARING_1770044861409",
+        "hearingDate": "2026-02-02T15:07:00.000Z",
+        "isOpen": false,
+        "judgeDecision": null,
+        "_id": "6980bdbd83b83639376f3efb",
+        "messages": [],
+        "courtRoomId": "COURT_1770044869943"
+      },
+      {
+        "hearingId": "HEARING_1770044886606",
+        "hearingDate": "2026-02-02T15:08:00.000Z",
+        "isOpen": false,
+        "judgeDecision": null,
+        "_id": "6980bdd683b83639376f41c7",
+        "messages": [],
+        "courtRoomId": "COURT_1770044907851"
+      },
+      {
+        "hearingId": "HEARING_1770044913201",
+        "hearingDate": "2026-02-03T15:08:00.000Z",
+        "isOpen": false,
+        "judgeDecision": null,
+        "_id": "6980bdf183b83639376f4539",
+        "messages": []
+      },
+      {
+        "hearingId": "HEARING_1770044920909",
+        "hearingDate": "2026-02-02T15:08:00.000Z",
+        "isOpen": false,
+        "judgeDecision": null,
+        "_id": "6980bdf883b83639376f45cf",
+        "messages": []
+      },
+      {
+        "hearingId": "HEARING_1770045142595",
+        "hearingDate": "2026-02-02T15:12:00.000Z",
+        "isOpen": false,
+        "judgeDecision": null,
+        "_id": "6980bed625d924514cde0f0a",
+        "messages": [],
+        "courtRoomId": "COURT_1770045148574"
+      },
+      {
+        "hearingId": "HEARING_1770045150810",
+        "hearingDate": "2026-02-02T15:12:00.000Z",
+        "isOpen": false,
+        "judgeDecision": null,
+        "_id": "6980bede25d924514cde129c",
+        "messages": [],
+        "courtRoomId": "COURT_1770045292633"
+      },
+      {
+        "hearingId": "HEARING_1770045356446",
+        "hearingDate": "2026-02-02T15:15:00.000Z",
+        "isOpen": false,
+        "judgeDecision": null,
+        "_id": "6980bfac25d924514cde16ac",
+        "messages": [],
+        "courtRoomId": "COURT_1770045359875"
+      },
+      {
+        "hearingId": "HEARING_1770045375243",
+        "hearingDate": "2026-02-02T15:16:00.000Z",
+        "isOpen": false,
+        "judgeDecision": null,
+        "_id": "6980bfbf25d924514cde1b51",
+        "messages": [],
+        "courtRoomId": "COURT_1770045376511"
+      },
+      {
+        "hearingId": "HEARING_1770045546856",
+        "hearingDate": "2026-02-02T15:19:00.000Z",
+        "isOpen": false,
+        "judgeDecision": null,
+        "_id": "6980c06a25d924514cde2268",
+        "messages": [],
+        "courtRoomId": "COURT_1770045785672"
+      },
+      {
+        "hearingId": "HEARING_1770045800730",
+        "hearingDate": "2026-02-02T15:23:00.000Z",
+        "isOpen": false,
+        "judgeDecision": null,
+        "_id": "6980c16825d924514cde2578",
+        "messages": [],
+        "courtRoomId": "COURT_1770045806168"
+      },
+      {
+        "hearingId": "HEARING_1770045835340",
+        "hearingDate": "2026-02-02T15:23:00.000Z",
+        "isOpen": true,
+        "judgeDecision": null,
+        "_id": "6980c18b466c4480dd96d6ea",
+        "messages": [],
+        "courtRoomId": "COURT_1770046279274"
+      }
+    ],
+    "caseMessages": [],
+    "createdAt": "2026-02-02T15:01:25.047Z",
+    "__v": 13,
+    "hearingDate": "2026-02-02T15:23:00.000Z",
+    "courtAccessPassword": "ddfc7775",
+    "courtRoomId": "COURT_1770046279274",
+    "mlAnalyses": [],
+    "hearingSnapshots": []
+  }
+]

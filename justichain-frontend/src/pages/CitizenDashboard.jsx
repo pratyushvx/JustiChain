@@ -9,6 +9,7 @@ function CitizenDashboard() {
   const [user, setUser] = useState({ name: "" });
   const [cases, setCases] = useState([]);
   const [caseId, setCaseId] = useState("");
+  const [historyCaseId, setHistoryCaseId] = useState("");
   const [selectedCaseId, setSelectedCaseId] = useState(null);
 
   const [title, setTitle] = useState("");
@@ -185,6 +186,26 @@ setPredictionConfidence(null);
     }
   };
 
+  /* ================= HEARING HISTORY ================= */
+
+  const viewHearingHistory = async () => {
+    setError("");
+    if (!historyCaseId) {
+      setError("Enter Case ID");
+      return;
+    }
+    try {
+      await axios.post(
+        "http://localhost:5000/api/citizen/verify-case",
+        { caseId: historyCaseId },
+        { withCredentials: true }
+      );
+      window.location.href = `/hearings/${historyCaseId}`;
+    } catch (err) {
+      setError(err.response?.data?.msg || "Failed to verify case");
+    }
+  };
+
   /* ================= RENDER ================= */
 
   return (
@@ -221,6 +242,13 @@ setPredictionConfidence(null);
           </span>
 
           <span
+            className={activeTab === "history" ? styles.active : ""}
+            onClick={() => setActiveTab("history")}
+          >
+            Hearing History
+          </span>
+
+          <span
             className={activeTab === "cases" ? styles.active : ""}
             onClick={() => setActiveTab("cases")}
           >
@@ -251,6 +279,26 @@ setPredictionConfidence(null);
       {/* CONTENT */}
 
       <div className={styles.dashboardContainer}>
+
+        {/* HEARING HISTORY */}
+
+        {activeTab === "history" && (
+          <div className={styles.tabContent}>
+
+            <h3>View Hearing History</h3>
+
+            <input
+              value={historyCaseId}
+              onChange={e => setHistoryCaseId(e.target.value)}
+              placeholder="Enter Case ID"
+            />
+
+            <button onClick={viewHearingHistory}>View History</button>
+
+            {error && <p className={styles.error}>{error}</p>}
+
+          </div>
+        )}
 
         {/* ENTER COURT */}
 

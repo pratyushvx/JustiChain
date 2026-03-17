@@ -80,12 +80,22 @@ router.post("/final-decision", async (req, res) => {
     });
 
     if (session) {
+      hearing.messages = session.statements.map(s => {
 
-      hearing.messages = session.statements.map(s => ({
-        sender: s.sender,
-        text: s.text,
-        time: s.timestamp || new Date().toISOString()
-      }));
+        const role =
+          s.from ||
+          s.sender ||
+          s.role ||
+          s.userRole ||
+          "SYSTEM";
+
+        return {
+          sender: role.toUpperCase(),
+          text: s.text || "",
+          time: s.timestamp || new Date().toISOString()
+        };
+
+      });
 
       let verdict = "PENDING";
 

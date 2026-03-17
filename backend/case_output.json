@@ -1,0 +1,29 @@
+[
+  {
+    "hearing": 1,
+    "messages": [
+      {
+        "sender": "SYSTEM",
+        "text": "JUDGE joined the courtroom",
+        "time": "2:02:30 PM",
+        "_id": "6980611e1b31bde663bb6b16"
+      },
+      {
+        "sender": "SYSTEM",
+        "text": "JUDGE joined the courtroom",
+        "time": "2:02:45 PM",
+        "_id": "6980612d1b31bde663bb6b21"
+      },
+      {
+        "sender": "SYSTEM",
+        "text": "LAWYER joined the courtroom",
+        "time": "4:29:59 PM",
+        "_id": "698083af3a6a5790e9558ff9"
+      }
+    ]
+  },
+  {
+    "hearing": 2,
+    "messages": []
+  }
+]

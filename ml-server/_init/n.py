@@ -3,7 +3,7 @@ import json
 import re
 
 # Configure Gemini API directly with key
-genai.configure(api_key="api-key")
+genai.configure(api_key="AIzaSyBVo3jde1ulwoI843USgV9S4W0jC_QYfpg")
 
 # Use free model
 model = genai.GenerativeModel("gemini-2.5-flash")
@@ -108,7 +108,7 @@ Return ONLY valid JSON:
 
         print("\n⚠️ JSON PARSE FAILED:", e)
 
-        fallback = {
+        result = {
             "prediction": "NEXT_HEARING",
             "confidence": 0.5,
             "evidenceScore": 0.5,

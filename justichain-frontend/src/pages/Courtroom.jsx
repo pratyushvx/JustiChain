@@ -87,12 +87,23 @@ function Courtroom() {
       setAdminReview(review);
     });
 
+    socket.on("JUDGE_FINAL_DECISION", (decisionData) => {
+      let msg = "The Judge has made a decision!";
+      if (decisionData.verdict === "CITIZEN_WINS") msg = "Judgment: Citizen won the case!";
+      else if (decisionData.verdict === "OPPONENT_WINS") msg = "Judgment: Opponent won the case!";
+      else if (decisionData.verdict === "PENDING") msg = "Judgment: Judge scheduled the next hearing.";
+      
+      alert(msg);
+      window.location.href = `/hearings/${caseId}`;
+    });
+
     return () => {
       socket.off("join_error");
       socket.off("system_message");
       socket.off("new_message");
       socket.off("speaker_changed");
       socket.off("ADMIN_REVIEW_UPDATE");
+      socket.off("JUDGE_FINAL_DECISION");
     };
   }, [role, userId, opponentEmail, caseId]);
 
@@ -316,7 +327,7 @@ function Courtroom() {
                 cursor: "pointer"
               }}
             >
-              🤖 Generate AI Suggestion
+              🤖 Generate ML Suggestion
             </button>
 
             {mlData && (
